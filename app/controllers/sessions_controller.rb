@@ -14,8 +14,7 @@ class SessionsController < ApplicationController
     end
   end
 
-  def secret
-  end
+
 
   def destroy
     session.delete :name
